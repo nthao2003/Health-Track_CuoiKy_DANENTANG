@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "HealthTrackr",
+    "slug": "health-trackr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "51.0.0",
+    "platforms": ["android", "ios", "web"],
+    "android": {
+      "package": "com.nth.healthtrackr"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nth.healthtrackr"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id" 
+      }
+    }
+  }
+}
